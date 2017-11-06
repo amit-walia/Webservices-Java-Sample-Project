@@ -42,7 +42,7 @@ public class TestEdit
 
         // set your page path and site name
         path.setPath("/about");
-        path.setSiteName("http://www.groupkt.com/post/5926d648/free-restful-web-service-to-get-location-by-ip-address.htm");
+        path.setSiteName("groupkt.com/post/5926d648/free-restful-web-service-to-get-location-by-ip-address.htm");
         toRead.setPath(path);
         toRead.setType(EntityTypeString.page);
 
