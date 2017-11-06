@@ -42,16 +42,16 @@ public class TestEdit
 
         // set your page path and site name
         path.setPath("/about");
-        path.setSiteName("example.com");
+        path.setSiteName("http://www.groupkt.com/post/5926d648/free-restful-web-service-to-get-location-by-ip-address.htm");
         toRead.setPath(path);
         toRead.setType(EntityTypeString.page);
 
         Read read = new Read();
         read.setIdentifier(toRead);
 
-        Authentication authentication = new Authentication();
-        authentication.setUsername("admin");
-        authentication.setPassword("admin");
+        //Authentication authentication = new Authentication();
+        //authentication.setUsername("admin");
+        //authentication.setPassword("admin");
 
         // read the asset
         AssetOperationHandlerServiceLocator serviceLocator = new AssetOperationHandlerServiceLocator();
